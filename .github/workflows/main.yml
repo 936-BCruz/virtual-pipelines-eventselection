@@ -80,7 +80,7 @@ jobs:
           name: histograms
 
       - name: cutflow test
-        run: python3 test/test_cutflow_ggH.py
+        run: python3 tests/test_cutflow_ggH.py
 
       - name: plot test
-        run: python3 test/test_plot_ggH.py
+        run: python3 tests/test_plot_ggH.py
